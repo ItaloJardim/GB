@@ -1,0 +1,15 @@
+span {
+    color: rgb(141, 0, 0)
+}
+label {
+    color: rgb(0, 0, 78);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+input, textarea, select {
+    background-color: rgb(250, 250, 250);
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 190);
+}

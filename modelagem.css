@@ -1,0 +1,438 @@
+* {
+    margin: 0 auto;
+}
+
+
+/* CABEÇALHO */
+
+div.cabeçalho {
+    display: flex;
+    height: 7vw;
+    width: 100%;
+    background-color: rgb(54, 1, 34);
+}
+a.opx, div.principal{
+    float:left; /* um à direita do outro */
+}
+div.propaganda {
+    width: 100%;
+}
+img.propaganda {
+    height: 20vw;
+    width: 100%;
+}
+div.logo {
+    width: 0%;
+    background-color: rgb(54, 1, 34);
+}
+img.logo {
+    height: 6vw;
+    padding-left: 0.5vw;
+    float: left;
+    padding-bottom: 5vw;
+}
+div.titulo {
+    width: 100%;
+    background-color: rgb(54, 1, 34);
+}
+div.principal1 {
+    display: none;
+}
+
+form {
+    margin-top: 4vw;
+    height: 1vw;
+    text-align: right;
+    float: right;
+    margin-left: 3vw;
+    margin-left: 1vw;
+}
+label, input {
+    font-size: 1vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 0.5vw;
+}
+label {
+    color: white;
+    font-size: 1.15vw;
+}
+input {
+    color: black;
+}
+div.propaganda {
+    width: 90%;
+    text-align: center;
+}
+img.pro {
+    height: 11.5vw;
+}
+
+div.logo, div.titulo {
+    margin: 0.2vw;
+}
+button {
+    font-size: 2vw;
+}
+/* CORPO */
+
+div.grande {
+    width: 90%;
+    background-color: rgb(250, 250, 250);
+    border-top: solid 1px rgb(44, 44, 44);
+  
+}
+/* a seguir, o texto da origem formatado */
+
+h1.origem {
+    color:  rgb(0, 0, 0);
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5vw;
+    padding: 1vw 1vw;
+}
+
+p.origem {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    padding: 1vw;
+    display: block;
+    font-size: 15px;
+}
+p.rodape {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    padding: 1vw;
+    display: block;
+    font-size: 15px;
+}
+p.origem2 {
+    display: none;
+}
+img.shopping {
+    height: 20vw;
+    margin: 1.2vw 1vw;
+    float: left;
+}
+div.produtos {
+    display: flex;
+    height: 30vw;
+    background-color: rgb(250, 250, 250);
+    width: 90%;
+}
+div.produtinhos {
+    flex: 1;
+    text-align: center;
+    margin-top: 3vw;
+}
+img.novidades {
+    height: 20vw;
+    width: 100%;
+    border-radius: 5%;
+}
+img.novidades:hover {
+    filter: blur(0px);
+    transform: scale(1.05);
+    transition: transform .5s ease;
+    opacity: 0.9;
+}
+h1.novidades {
+    background-color: rgba(0, 0, 0, 0.836);
+    font-size: 2vw;
+    background-size: 1vw;
+    background-position-x: center;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+h1.novidades:hover {
+    background: rgb(47, 47, 47);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+a.titulo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a.titulo:hover {
+    color: rgb(238, 238, 238);
+}
+div.caixinha img {
+    width: 100%;
+}
+div.rodape {
+    height: 5vw;
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+}
+div.barramenu{
+    background-color:rgb(22, 22, 22);
+    width:100%;
+    overflow: hidden;
+    display: block;
+}
+a.opy {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div.submenu{
+    display:none; /* deixa o sumenu oculto */
+    position:absolute;
+    width:90px;
+    box-shadow: 3px 5px 15px 5px rgb(1,1,1);
+}
+
+a.opx, div.principal{
+    margin-left: 0.1vw; /* um à direita do outro */
+}
+
+a.opx{
+    text-decoration:none;
+}
+
+button.btn{
+    background-color: rgb(22, 22, 22);
+    border:0px;
+    margin:0px;
+}
+
+a.opx, button.btn{
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+a.opx {
+    font-size: 1.5vw;
+    padding:2vw 3vw;   
+}
+
+a.opx:hover, button.btn:hover{
+    background-color: rgb(138, 9, 105);
+} 
+
+div.principal:hover div.submenu, a.opy{
+    display:block /*exibe o submenu*/
+}
+
+a.opy{
+    padding: 8px 5px;
+    text-decoration:none;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background-color: white;
+}
+
+a.opy:hover{
+    background-color: rgb(204, 13, 194);
+    color: white; /* pra mudar a aparencia do submenu quando botar a mão em cima*/
+}
+div.submenu, button.btn{
+    width: 9vw;
+    font-size: 1.5vw; /*pra botar o submenu da mesma grossura do menu*/
+}
+button.btn {
+    padding-top: 2vw;
+}
+@media only screen and (max-width:900px){
+    p.origem {
+        font-size: 20px;
+    } 
+    div.submenu, button.btn{
+        width: 8vw;
+        font-size: 1.5vw; /*pra botar o submenu da mesma grossura do menu*/
+    }
+    img.shopping {
+        display: none;
+    }
+    div.caixinha {
+         background-color: rgb(255, 255, 255);
+     }
+     div.caixinhapequena {
+         display: none;
+     }
+   }
+
+   div.submenu2 {
+       bottom: 22vw;
+   }
+   form {
+       margin-top: 2vw;
+   }
+   div.rodape {
+       height: 5vw;
+       background-color: rgb(34, 34, 34);
+   }
+
+   /* ABAIXO PARA CELULAR */
+
+@media only screen and (max-width:600px){
+   
+div.gif {
+    display: none;
+}
+ div.grande, div.cabeçalho {
+     width: 100%;
+ }
+ div.caixinha, div.caixinhapequena, div.logo, div.titulo {
+     margin: 0.3vw;
+ }
+    div.grande{
+     flex-direction: column;
+     height: 850px;
+ }   
+  div.caixinha, div.caixinhapequena {
+      flex: 1;
+      background-color: rgb(255, 255, 255);
+      height: 700px;
+      display: block;
+  }
+  /* a seguira temos as novidades e produtos em geral */
+  img.novidades {
+    height: 22vw;
+    width: 100%;
+    border-radius: 0%;
+}
+div.produtos {
+    width: 100%;
+    height: 25.5vw;
+}
+div.produtinhos {
+    flex: 1;
+    text-align: center;
+    margin-top: 0vw;
+}
+h1.novidades {
+    margin-top: 0vw;
+}
+/* a seguir, a antiga imagem do shopping */
+
+ img.shopping {
+    height: 50vw;
+    float: none;
+    text-align: center;
+    display: none;
+ }
+ /* a seguir, a retirada da senha */
+ 
+ /* a seguir, o texto formatado */
+ p.origem2 {
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+ }
+  p.origem {
+      display: none;
+  }
+  form {
+      margin-top: 0.5vw;
+  }
+  div.principal1 {
+      display: block;
+  }
+  div.submenu1{
+    display:none; /* deixa o sumenu oculto */
+    position: absolute;
+    width:5vw;
+    box-shadow: 3px 5px 15px 5px rgb(1,1,1);
+}
+  div.titulo {
+    width: 90%;
+    background-color: rgb(54, 1, 34);
+    border-left: solid black 1px;
+}
+div.barramenu {
+    display: none;
+}
+a.opx1{
+    text-decoration:none;
+}
+button.btn1{
+    background-color: rgb(54, 1, 34);
+    border:0vw;
+    width: 100%;   
+}
+button.btn1{
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+button.btn1:hover {
+    background-color: rgb(121, 0, 90);
+}
+ 
+div.principal1:hover div.submenu1, a.opy1{
+    display:block;  /*exibe o submenu*/
+}
+button.opy1{
+    padding: 0;
+    text-decoration:none;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background-color: white;
+    border:0vw;
+    margin:0vw;
+    font-size: 4vw;
+}
+div.contato:hover div.submenu2, button.opy1{
+    display:block; /*exibe o submenu*/
+}
+div.submenu2, button.opy1 {
+    width: 12vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*pra botar o submenu da mesma grossura do menu*/
+}
+div.logo {
+    width: 12%;
+}
+div.titulo {
+    width: 88%;
+}
+button.opy1:hover {
+    color: white;
+    background-color: rgb(175, 0, 131);
+}
+div.submenu2{
+    display:none; /* deixa o sumenu oculto */
+    position: relative;
+    top: 0.05vw;
+    width: 9.81vw;
+    text-align: center;
+    font-size: 5vw;
+}
+a.opy1{
+    padding: 1vw 0.5vw;
+    text-decoration:none;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background-color: white;
+    font-size: 1.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a.opy1:hover{
+    background-color: rgb(175, 0, 131);
+    color: white; /* pra mudar a aparencia do submenu quando botar a mão em cima*/
+}
+}
+a.opy1, div.contato, button.opy1, div.submenu2, div.submenu1 {
+    font-size: 2.5vw;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+div.grande {
+    height: 530px;
+    border: none;
+}
+h1.novidades {
+    margin: 0;
+    padding: 0;
+}
+img.novidades {
+    margin: 0;
+}
