@@ -233,7 +233,7 @@ div.submenu, button.btn{
 button.btn {
     padding-top: 2vw;
 }
-@media only screen and (max-width:900px){
+@media only screen and (max--device-width:900px){
     p.origem {
         font-size: 20px;
     } 
@@ -265,7 +265,7 @@ button.btn {
 
    /* ABAIXO PARA CELULAR */
 
-@media only screen and (max-width:600px){
+@media only screen and (max-device-width:600px){
    
 div.gif {
     display: none;
